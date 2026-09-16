@@ -1,0 +1,20 @@
+seed: 42
+classes: [jump, spin, step, transition, unknown]
+data:
+  frames: 120
+  joints: 33
+  channels: 10
+  minimum_pose_coverage: 0.55
+training:
+  epochs: 80
+  batch_size: 16
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  patience: 12
+model:
+  hidden_channels: 96
+  dropout: 0.30
+decision:
+  accept_confidence: 0.80
+  suggest_confidence: 0.60
+  minimum_margin: 0.15

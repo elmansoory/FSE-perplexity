@@ -1,0 +1,11 @@
+{
+  "clip_id": "clip_001",
+  "athlete_id": "athlete_01",
+  "team_id": "team_a",
+  "coach_id": "coach_01",
+  "model_version": "team_a_general_v0",
+  "predicted_label": "spin",
+  "prediction_confidence": 0.62,
+  "coach_label": "jump",
+  "notes": "Corrected after video review"
+}
